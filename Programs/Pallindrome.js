@@ -11,7 +11,8 @@ function Pallindrome() {
     temp=temp/10;
 
 /*This will convert value of temp
-*/From float to int
+From float to int
+*/
     temp=parseInt(temp);
 
   }
