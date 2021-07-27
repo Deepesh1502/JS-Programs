@@ -1,14 +1,12 @@
-function Implicit() {
-  let result;
-  
+  let result;  
 //Implicit Conversion to Strings
-  result = '6'+2; 
+  result='6'+2; 
     console.log(result);
-  result = '6'+true; 
+  result='6'+true; 
     console.log(result);
-  result = '6'+undefined; 
+  result='6'+undefined; 
     console.log(result);
-  result = '6'+null; 
+  result='6'+null; 
     console.log(result);
   
 //Implicit Conversion to Numbers
@@ -18,7 +16,7 @@ function Implicit() {
     console.log(result);
     
 //Non-numeric String Results to NaN
-  result='Hello'-'World';
+  result = 'Hello'-'World';
     console.log(result);
   result='6'-'Hello';
     console.log(result);
@@ -49,5 +47,3 @@ function Implicit() {
     console.log(result);
   result=null+undefined;
     console.log(result);
-}
-Implicit();
